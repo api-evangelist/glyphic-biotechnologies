@@ -1,8 +1,12 @@
 aid: glyphic-biotechnologies
 name: Glyphic Biotechnologies
-description: Glyphic Biotechnologies is a company surfaced as a portfolio company of wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Glyphic Biotechnologies is a Berkeley, California proteomics company founded in 2021 that
+  is developing ProSE (Protein Sequencing by Expansion) — a de novo, high-throughput, single-molecule
+  protein sequencing technology designed to discriminate all 20 amino acids and their post-translational
+  modifications. The company aims to make massively parallel proteome sequencing broadly accessible for
+  drug discovery and biological research, and is backed by Wing Venture Capital. Glyphic currently
+  publishes no public developer API, SDKs, or documentation surface; this profile captures its identity
+  and domain-security posture in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/glyphic-biotechnologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +14,29 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://public-website-tfib.onrender.com/uploads/social_a5c45b485d.jpg
 tags:
 - Company
+- Proteomics
+- Protein Sequencing
+- Biotechnology
+- Life Sciences
+- Single-Molecule Sequencing
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/glyphic-biotechnologies-domain-security.yml
 - type: Website
   url: https://glyphic.bio/
+- type: PrivacyPolicy
+  url: https://glyphic.bio/privacy-policy
+- type: TermsOfService
+  url: https://glyphic.bio/terms-of-use
+- type: Support
+  url: https://glyphic.bio/#contact-us
+- type: HelpCenter
+  url: https://glyphic.bio/faqs
+- type: Careers
+  url: https://job-boards.greenhouse.io/glyphicbiotechnologies
+- type: LinkedIn
+  url: https://www.linkedin.com/company/glyphicbio/
+- type: X
+  url: https://x.com/GlyphicBio
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
